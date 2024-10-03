@@ -1,5 +1,5 @@
 <template>
-  <b-navbar
+  <b-navbar 
     id="default-navbar"
     :class="navbarClass"
     :type="navbarType"
@@ -8,11 +8,11 @@
 
       <!-- Toggle sidebar -->
       <button
-        v-fmv-toggle.default-drawer
+        v-fmv-toggle.default-drawer 
         class="navbar-toggler w-auto mr-16pt d-block rounded-0"
-        :class="navbarToggleClass"
+        :class="navbarToggleClass" 
         type="button">
-        <md-icon>short_texts</md-icon>
+        <md-icon>short_text</md-icon>
       </button>
 
       <slot>
